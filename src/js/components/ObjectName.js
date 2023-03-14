@@ -9,7 +9,8 @@ export default function getObjectName(props) {
         theme,
         jsvRoot,
         name,
-        displayArrayKey
+        displayArrayKey,
+        keyWord
     } = props;
 
     const display_name = props.name ? props.name : '';
@@ -32,7 +33,10 @@ export default function getObjectName(props) {
                     {quotesOnKeys && (
                         <span style={{ verticalAlign: 'top' }}>"</span>
                     )}
-                    <span>{display_name}</span>
+                  {
+                    keyWord === display_name ? (<span id={'keyWordAnchor'} style={{color: 'red', fontWeight: 800}}>{display_name}</span>) : (<span>{display_name}</span>)
+                  }
+
                     {quotesOnKeys && (
                         <span style={{ verticalAlign: 'top' }}>"</span>
                     )}

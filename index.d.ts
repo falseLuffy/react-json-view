@@ -8,6 +8,10 @@ export interface ReactJsonViewProps {
    */
   src: object;
   /**
+   * 高亮关键字 key
+   */
+  keyWord: string
+  /**
    * Contains the name of your root node. Use null or false for no name.
    *
    * Default: "root"
