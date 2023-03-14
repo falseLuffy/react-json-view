@@ -52,6 +52,7 @@ ReactDom.render(
                 return false;
             }}
             defaultValue=""
+            keyWord={'isString'}
         />
 
         <br />
