@@ -6,7 +6,8 @@
 
 ## feature 
   1、支持key值的高亮关键字
-  2、高亮关键字暴露锚点keyWordAnchor,可以达到滚到到指定为止的功能
+
+  2、高亮关键字暴露锚点 id keyWordAnchor,可以实现锚点、元素操作等功能
 
 RJV is a React component for displaying and editing javascript **arrays** and **JSON objects**.
 
