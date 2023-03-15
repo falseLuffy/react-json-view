@@ -93,7 +93,7 @@ class VariableEditor extends React.PureComponent {
                             {!!quotesOnKeys && (
                                 <span style={{ verticalAlign: 'top' }}>"</span>
                             )}
-                            <span {...(keyWord === variable.name ? {id: 'keyWordAnchor', style: {display: 'inline-block', color: 'red', fontWeight: 800}} : {style: {display: 'inline-block'}})}>
+                            <span {...(keyWord === variable.name ? {id: 'keyWordAnchor', style: {display: 'inline-block', color: 'red', backgroundColor: '#0f3', fontWeight: 800}} : {style: {display: 'inline-block'}})}>
                                 {variable.name}
                             </span>
                             {!!quotesOnKeys && (

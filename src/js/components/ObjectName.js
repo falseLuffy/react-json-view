@@ -34,7 +34,7 @@ export default function getObjectName(props) {
                         <span style={{ verticalAlign: 'top' }}>"</span>
                     )}
                   {
-                    keyWord === display_name ? (<span id={'keyWordAnchor'} style={{color: 'red', fontWeight: 800}}>{display_name}</span>) : (<span>{display_name}</span>)
+                    keyWord === display_name ? (<span id={'keyWordAnchor'} style={{color: 'red',backgroundColor: '#0f3', fontWeight: 800}}>{display_name}</span>) : (<span>{display_name}</span>)
                   }
 
                     {quotesOnKeys && (
